@@ -4,7 +4,7 @@
 'Say My Name
 
 
-Module Module1
+Module SayMyName
 
     Sub Main()
         'Function used to set the users input as a variable
