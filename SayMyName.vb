@@ -2,7 +2,7 @@
 'RCET0265
 'Fall 2020
 'Say My Name
-'https://github.com/CalvinAC/SayMyName/blob/master/SayMyName.vb
+'https://github.com/CalvinAC/SayMyName.git
 
 Module SayMyName
 
@@ -18,8 +18,8 @@ Module SayMyName
 
         'Text repyling to the user with their name printed
         userNameInput = Console.ReadLine()
-        Console.WriteLine("You entered: " + userNameInput)
-        Console.WriteLine("Enjoy your stay, " + userNameInput)
+        Console.WriteLine("You entered: " & userNameInput)
+        Console.WriteLine("Enjoy your stay, " & userNameInput)
         Console.ReadLine()
 
     End Sub
